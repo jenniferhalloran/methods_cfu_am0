@@ -37,14 +37,15 @@ custom_greeting("Amy")
 #3: Write a method named square that takes in one number, and returns the square of that number
 
 def square(num1)
-  num1 * num1
+  num_squared = num1 * num1
+  return num_squared
 end
 
 p square(5)
 
 
 # What is the return value of your method?
-# This method has an implicit return of num1 squared, which in this example would be 25.
+# This method has an explicit return of 25, because this is the value that gets stored in the variable num_squared.
 
 # How many arguments did you pass your method?
 # I passed one argument into this method.
