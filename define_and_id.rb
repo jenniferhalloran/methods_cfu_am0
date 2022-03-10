@@ -5,19 +5,19 @@
 # The upcase method is called on the string object "Hello World"
 # No arguments are passed; upcase has one clear job which is to capitalize all letters that exist in the String
 # The return value is "HI"
-"Hello World".upcase
+ "Hello World".upcase
 
 
-"Hello World".include?("Hello")
+p "Hello World".include?("Hello")
 
 
-"Hello World".end_with?("Hello")
+p "Hello World".end_with?("Hello")
 
 
-"Hello World".end_with?("rld")
+p "Hello World".end_with?("rld")
 
 
-"Hello World".length
+p "Hello World".length
 
 
-"Hello World".size
+p "Hello World".size
